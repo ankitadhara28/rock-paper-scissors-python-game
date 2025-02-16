@@ -28,7 +28,7 @@ scissors = '''
 print("Welcome to the RPS Game !!")
 name = input("Enter your name :")
 user = int(input("What do you choose ? Type 0 for Rock , 1 for paper or 2 for scissor :"))#input returns a string
-print(f"{name} choose {user}")
+print(f"{name} chose")
 if user == 0:
     print(rock)
 if user == 1:
@@ -36,7 +36,7 @@ if user == 1:
 if user == 2:
     print(scissors)
 comp_choose = random.randint(0,2)
-print(f"Computer choose {comp_choose}")
+print(f"Computer chose")
 if comp_choose == 0:
     print(rock)
 if comp_choose == 1:
